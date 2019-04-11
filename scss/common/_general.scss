@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &:before,
+    &:after {
+        box-sizing: border-box;
+    }
+}
+
+body {
+    color: $font-lato;
+    font-size: 16px;
+    color: $color-dark;
+}
+
+img {
+    max-width: 100%;
+}
+
+.grid {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.content-box {
+    width: 580px;
+    margin: 0 auto;
+    
+}
