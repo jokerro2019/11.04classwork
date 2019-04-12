@@ -1,0 +1,29 @@
+.contact {
+    padding-top: 139px;
+    padding-bottom: 65px;
+
+    &__content {
+        border: 2px solid $color-dark;
+        border-top: none;
+        text-align: center;
+        position: relative;
+        padding-top: 75px;
+        padding-bottom: 50px;
+            h2 {
+
+                &:before {
+                    margin-right: 37px;
+                }
+
+                &:after {
+                    margin-left: 38px;
+                }
+            }      
+        } 
+        
+        &__description {
+            margin-bottom: 42px;
+        }
+
+        
+}

@@ -1,0 +1,14 @@
+.alboms {
+    font-size: 0;
+    ul {
+        display: flex;
+
+        li:nth-child(2) {
+            margin: 0 10px;
+        }
+    }
+
+    ul:first-child {
+        margin-bottom: 10px;
+    }
+} 

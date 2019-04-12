@@ -1,0 +1,48 @@
+.whatwedo {
+    padding-top: 120px;
+    padding-bottom: 114px;
+    &__content {
+        border: 2px solid $color-dark;
+        border-top: none;
+        text-align: center;
+        position: relative;
+        padding-top: 115px;
+        h2 {
+
+            &:before {
+                margin-right: 29px;
+            }
+
+            &:after {
+                margin-left: 36px;
+            }
+        }
+    }
+
+    img {
+        display: inline-block;
+        margin-bottom: 38px; }
+
+        h3 {
+            margin-bottom: 34px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 26px;
+            white-space: pre;
+        }
+
+}
+
+.design {
+    margin-bottom: 105px;
+}
+
+.development {
+    margin-bottom: 93px;
+}
+
+.product {
+    margin-bottom: 93px;
+}

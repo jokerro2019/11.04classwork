@@ -25,7 +25,27 @@ img {
 }
 
 .content-box {
-    width: 580px;
+    width: 630px;
     margin: 0 auto;
-    
+    text-align: center;
+}
+
+.btn {
+    width: 390px;
+    height: 60px;
+    background-color: $color-dark;
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: 16px;
+}
+
+.page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+
+    img {
+        margin-right: 38px;
+    }
 }
